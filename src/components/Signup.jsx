@@ -8,6 +8,9 @@ export default function Signup() {
         data.acquisition = acquisitionChannel;
 
         console.log(data);
+
+        // Reset the form programmatically
+        event.target.reset();
     }
 
     return (
